@@ -1,4 +1,23 @@
 
 body {
-    background-color: rgb(223, 191, 240);
+    background-color: rgb(177, 122, 209);
+}
+
+.container {
+   width: 100%;
+   max-width: 1000px;
+   border: 1px solid;
+   margin: 0 auto;
+   
+}
+
+header {
+    height: 100px;
+    background-color:rgb(106, 81, 131)
+}
+
+header h1 {
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    
 }
