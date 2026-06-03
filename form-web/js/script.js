@@ -17,12 +17,11 @@ button.addEventListener("click", (event) => {
    const emailValue = email.value;
    const telefoneValue = telefone.value
 
-   const templateHTML = `<li>${inputValue, emailValue, telefoneValue}</li>`;
+   const templateHTML = `<li><h2>${inputValue}</h2> <p>${emailValue}, ${telefoneValue}</p></li>`;
 
 
 // Incluir itens no HTML
 lista.innerHTML += templateHTML;
-
 
 
 });
