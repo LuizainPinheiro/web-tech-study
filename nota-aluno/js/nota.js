@@ -1,6 +1,7 @@
 //Variaveis
 const inputNota = document.getElementById("nota");
 const resultado = document.getElementById("resultado");
+const message = document.getElementById("message");
 
 function resultadoNotaClick(event){
     event.preventDefault();
@@ -8,15 +9,16 @@ function resultadoNotaClick(event){
 
     //Validacao
     if (inputNotaValue == ""){
-        alert("Digite a nota");
+        message.style.display = "block"
         return false;
     }
 
     //Logica
     if (inputNotaValue >=6){
-        alert("Aprovado");
+        resultado.innerHTML = "Aprovado";
+       
     } else {
-        alert("Reprovado");
+        resultado.innerHTML = "Reprovado";
     }
 
 }
