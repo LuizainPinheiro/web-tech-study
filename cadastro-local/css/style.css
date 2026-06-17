@@ -44,7 +44,7 @@ input[type="text"] {
 }
 
 button {
-    background-color: #ff0066;
+    background-color: #b12b60;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -79,6 +79,6 @@ ul li {
 }
 
 .error {
-    color: red;
+    color: rgb(189, 101, 101);
     margin-top: 3px;    
   }
