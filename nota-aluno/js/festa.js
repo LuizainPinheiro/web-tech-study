@@ -6,7 +6,7 @@ function resultadoIdadeClick(event){
     console.log(inputIdade.value)
 
 
-    //Validacao
+    //Validacaoz
     if (inputIdade.value == ""){
         alert("Digite a idade");
         return false;
