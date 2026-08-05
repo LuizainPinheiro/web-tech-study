@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Filmes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Meus Filmes 2026</h1>
+        <p>Indicações de filmes incríveis</p>
+    </header>
+
+    <main class="container">
+        <section class="form-section">
+            <form id="filme-form">
+                <label for="nome">Nome do filme</label>
+                <input type="text" id="nome" required>
+
+                <label for="personagem">Personagem favorito</label>
+                <input type="text" id="personagem" required>
+
+                <label for="imagem">Link da Imagem (URL)</label>
+                <input type="url" id="imagem" required>
+
+                <button type="submit">Adicionar Filme</button>
+            </form>
+        </section> 
+
+        <section class="lista">
+            <h2>Lista de Filmes</h2>
+            <div id="filmes-container" class="filme-grid"></div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
