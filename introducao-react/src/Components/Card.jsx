@@ -1,3 +1,4 @@
+import "./Card.css"
 //Importe da imagem
 import imgCard from "../assets/img-card.jpg";
 
