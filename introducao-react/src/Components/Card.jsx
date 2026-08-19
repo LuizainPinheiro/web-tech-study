@@ -9,7 +9,8 @@ return (
         <section>
             <article className="card">
                 <img src={imgCard} className="img-card" />
-                <p className="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, neque!</p>
+                <p className="card-text">Conheça o Trovão!</p>
+                <p className="card-text">Esse cachorrinho apaixonante.</p>
             </article>
             <hr />
         </section>
