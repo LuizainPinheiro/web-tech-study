@@ -7,7 +7,6 @@ const Footer = (props) => {
         textAlign: 'center'
     }
 
-    console.log(props)
     return (
     
         <footer>
