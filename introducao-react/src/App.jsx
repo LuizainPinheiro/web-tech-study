@@ -1,4 +1,4 @@
-import Header from './Components/filmes/Header';
+/*import Header from './Components/filmes/Header';
 import Filme from './Components/filmes/Filme'; 
 import Footer from './Components/filmes/Footer';
 
@@ -21,17 +21,19 @@ function App() {
   );
 }
 
-export default App;
+*/
 
-/*
 import ImgCard from './Components/ImgCard'
-
+import Header from './Components/Header';
+import Banner from './Components/Banner'; 
+import Footer from './Components/Footer';
+import Card from './Components/Card';
 
 function App() {
 
   return (
     <>
-      /*<Header title="Meu site"/> 
+      <Header title="Meu site"/> 
 
       <Header title="Site de Adoção - Dogs"/> 
       
@@ -53,7 +55,6 @@ function App() {
      </>
   )
 }
-*/
 
-
+export default App;
 

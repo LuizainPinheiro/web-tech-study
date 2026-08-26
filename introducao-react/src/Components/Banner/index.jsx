@@ -3,7 +3,7 @@ const Banner = (props) => {
         const titleStyle = {
         margin: 0,
         fontSize: '20px',
-        color: '#151550',
+        color: '#2b5fa3',
         textAlign: 'center'
     }
 

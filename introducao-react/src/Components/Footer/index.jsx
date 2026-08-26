@@ -3,7 +3,7 @@ const Footer = (props) => {
     const titleStyle = {
         margin: 0,
         fontSize: '24px',
-        color: '#4141c9',
+        color: '#2b5fa3',
         textAlign: 'center'
     }
 

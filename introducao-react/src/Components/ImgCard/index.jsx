@@ -1,6 +1,6 @@
 import "./ImgCard.css"
 
-import imgCard from "../assets/img-dog.jpg";
+import imgCard from "../../assets/img-dog.jpg";
 
 const ImgCard = (props) => {
 
