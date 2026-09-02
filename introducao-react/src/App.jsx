@@ -23,21 +23,23 @@ function App() {
 
 */
 
-import ImgCard from './Components/ImgCard'
-import Header from './Components/Header';
+/*import ImgCard from './Components/ImgCard'
+import Header from './Components/Header'
 import Banner from './Components/Banner'; 
 import Footer from './Components/Footer';
 import Card from './Components/Card';
+import Count from './Components/Count';
+import Box from './Components/Box'
 
 function App() {
 
   return (
     <>
-      <Header title="Meu site"/> 
-
       <Header title="Site de Adoção - Dogs"/> 
-      
-      <Header title="Introdução React"/>
+
+      <Count />
+
+      <Box/>
 
       <ImgCard caption="Nosso mascotinho"/>
 
@@ -54,7 +56,26 @@ function App() {
 
      </>
   )
+}*/
+
+import React from 'react'
+import Header from './Components/ExComida/Header'
+import Box from './Components/ExComida/Box'
+import Footer from './Components/ExComida/Footer'
+import './App.css'
+
+function App() {
+  return (
+    <div className="app-container">
+      <Header title="Comida caseira - Receitas" />
+
+      <main className="main-content">
+        <Box />
+      </main>
+
+      <Footer title="Fim da pagina" />
+    </div>
+  )
 }
 
-export default App;
-
+export default App

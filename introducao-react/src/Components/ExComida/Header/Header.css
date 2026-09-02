@@ -1,0 +1,13 @@
+.headerStyle {
+    background-color: #fff780;
+    border-bottom: 2px solid #f1e49a;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #f7f7f7
+}
+
+.titleStyle {
+    margin: 0;
+    font-size: 24px;
+    color: #7c7e6e
+}

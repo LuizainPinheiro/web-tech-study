@@ -1,0 +1,18 @@
+.titleStyle {
+    margin: 0;
+    font-size: 16px;
+    color: #838382;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+}
+
+.footerStyle {
+    background-color: #fff780;
+    border-top: 2px solid #f1e49a;
+    padding: 15px 0;
+    width: 100%;
+    text-align: center;
+    margin-top: auto; 
+}
