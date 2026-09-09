@@ -1,7 +1,8 @@
 import React from 'react'
 import Header from '../../Components/Header' 
 import Box from '../../Components/Box'
-import Footer from '../../Components/Footer' 
+import '../../global.css'
+
 import img1 from '../../assets/img/img.png'
 import img2 from '../../assets/img/img2.png'
 
@@ -9,11 +10,6 @@ export default function index(props) {
   return (
     <div className='app-container'>
       
-      <Header 
-        title="Projeto React"
-        subtitle="Meu primeiro site em React"
-      />
-    
       <main className='main-content container'>
         <section className='d-flex'>
           <Box title='Titulo do componente' description='Exemplo' imagem={img1} />
@@ -21,13 +17,7 @@ export default function index(props) {
         </section>
       </main>
   
-      <Footer 
-        title="MeuSite"
-        description="Construindo experiências incríveis na web com React."
-        githubUrl="https://github.com"
-        linkedinUrl="https://linkedin.com"
-        copyright="MeuSite. Todos os direitos reservados."
-      />
+      
 
     </div>
   );

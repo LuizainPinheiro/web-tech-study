@@ -5,31 +5,31 @@ export default function Footer(props) {
   return (
     <footer className="site-footer">
       <div className="footer-content">
-        
+       
         <div className="footer-section">
-          <h3>{props.title}</h3>
-          <p>{props.description}</p>
+          <h3>MeuSite</h3>
+          <p>Construindo experiências incríveis na web com React.</p>
         </div>
     
         <div className="footer-section">
           <h4>Links</h4>
           <ul>
-            <li><a href="#home">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
+            <li>Início</li>
+            <li>Sobre</li>
           </ul>
         </div>
 
         <div className="footer-section">
           <h4>Redes Sociais</h4>
           <ul className="social-links-vertical">
-            <li><a href={props.githubUrl}>GitHub</a></li>
-            <li><a href={props.linkedinUrl}>LinkedIn</a></li>
+            <li>GitHub</li>
+            <li>LinkedIn</li>
           </ul>
         </div>
       </div>
 
       <div className="footer-bottom">
-        <p>{props.copyright}</p>
+        <p>MeuSite. Todos os direitos reservados.</p>
       </div>
     </footer>
   );

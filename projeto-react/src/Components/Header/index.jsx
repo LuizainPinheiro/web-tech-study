@@ -1,20 +1,15 @@
 import "./Header.css"
 import React from 'react'
 
-export default function index(props) {
+export default function index() {
   return (
     <header className='header'>
       <section className='title-container'>
-        <h1 className='title'>{props.title}</h1>
-        <h2 className="subtitle">{props.subtitle}</h2>
+        <h1 className='title'>Projeto React</h1>
+        <h2 className="subtitle">Meu primeiro site em React</h2>
       </section>
 
-      <nav className="header-menu">
-        <ul>
-          <li><a href={props.homeUrl}>Inicio</a></li>
-          <li><a href={props.aboutUrl}>Sobre</a></li>
-        </ul>
-      </nav>
+      
     </header>
   )
 }

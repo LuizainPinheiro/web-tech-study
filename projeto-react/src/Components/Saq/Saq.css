@@ -1,0 +1,36 @@
+.saq-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.saq-title {
+  font-size: 2rem;
+  color: #9b3b83;
+  margin-bottom: 24px;
+}
+
+.saq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.saq-item {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.saq-questao {
+  font-size: 1.2rem;
+  color: #97348b;
+  margin-bottom: 8px;
+}
+
+.saq-resposta {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #a42f89;
+}

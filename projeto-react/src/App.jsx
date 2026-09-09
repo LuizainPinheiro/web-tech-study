@@ -1,13 +1,16 @@
-import "./global.css"
-import Home from './Pages/Home'
+import Header from "./Components/Header"
+import Router  from "./Router"
+import Footer from "./Components/Footer"
+
 
 function App() {
   return (
-    <div>
-      <main className="main-content">
-         <Home />
-      </main>
-    </div>
+  <>
+  <Header />
+  <Router /> 
+  <Footer />
+ </>
+
   )
 }
 

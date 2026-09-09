@@ -16,8 +16,8 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 30px; 
+    
 }
-
 
 html, body {
   margin: 0;
@@ -29,7 +29,7 @@ html, body {
 .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 67vh;
   width: 100%;
 }
 
