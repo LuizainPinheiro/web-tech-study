@@ -14,25 +14,22 @@ export default function index() {
     }, [])
   return (
 
-
     <div className='app-container'>
       <section className='faq-container' >
         <h1 className='faq-title'>Perguntas Frequentes</h1>
 
         {faq.map((faqs)=> (
-        <div className='faq-list' key={faqs.id} >
-          <div className='faq-item'>
-            <h2 className='faq-questao'>{faqs.pergunta}</h2>
-            <p className='faq-resposta'>{faqs.resposta}</p>
+          <div className='faq-list' key={faqs.id} >
+            <div className='faq-item'>
+              <h2 className='faq-questao'>{faqs.pergunta}</h2>
+              <p className='faq-resposta'>{faqs.resposta}</p>
+            </div>
           </div>
-        </div>
 
         ))}
-      
-      </section>
 
+      </section>
       </div>
-   
        
   )
 }
