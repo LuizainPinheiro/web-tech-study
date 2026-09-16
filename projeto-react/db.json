@@ -1,0 +1,39 @@
+{
+  "usuarios": [
+     { "nome": "João Silva", "telefone": "11999990001", "email": "joao@email.com"},
+     { "nome": "Caio", "telefone": "44444444", "email": "caio@email.com"},
+    { "nome": "Luiza", "telefone": "5544444444", "email": "luiza@email.com"}
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "pergunta": "O que é JSON Server?",
+      "resposta": "É uma ferramenta que permite criar uma API REST fake completa em poucos segundos utilizando apenas um arquivo JSON."
+    },
+    {
+      "id": "2",
+      "pergunta": "Como instalar o JSON Server?",
+      "resposta": "Você pode instalá-lo globalmente via npm executando o comando npm install -g json-server no terminal."
+    },
+    {
+      "id": "3",
+      "pergunta": "Posso usar JSON Server em produção?",
+      "resposta": "Não é recomendado. Ele foi desenvolvido apenas para prototipação e testes, sem recursos de segurança ou escala."
+    },
+    {
+      "id": "4",
+      "pergunta": "Como adicionar um atraso (delay) nas respostas do JSON Server?",
+      "resposta": "Use a flag --delay com o tempo em ms. Exemplo: json-server --watch db.json --delay 1000 para simular 1 segundo de latência."
+    },
+    {
+      "id": "5",
+      "pergunta": "Como ordenar os dados no JSON Server?",
+      "resposta": "Utilize os parâmetros _sort e _order na URL. Exemplo: http://localhost:3000/posts?_sort=title&_order=asc."
+    },
+    {
+      "id": "6",
+      "pergunta": "Como realizar paginação de dados no JSON Server?",
+      "resposta": "Passe os parâmetros _page e _limit na URL. Exemplo: http://localhost:3000/posts?_page=1&_limit=10."
+    }
+  ]
+}

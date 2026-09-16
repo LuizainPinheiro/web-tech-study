@@ -20,8 +20,14 @@ export default function index() {
             </li>
 
             <li>
-              <Link to='/saq'>
-                SAQ
+              <Link to='/faq'>
+                FAQ
+              </Link>
+            </li>
+
+            <li>
+              <Link to='/usuarios'>
+                Usuarios
               </Link>
             </li>
 
