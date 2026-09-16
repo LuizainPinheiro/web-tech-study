@@ -42,7 +42,18 @@
       "introducao": "React é uma biblioteca JavaScript para construção de interfaces de usuário. Saiba tudo sobre React em nossa página inicial ou através do tutorial.",
       "subtitulo": "Pratique React",
       "descricao": "React foi pensado desde o início para ser adotado gradualmente e você pode usar menos ou mais da biblioteca de acordo com sua necessidade. Se você quer uma amostra do React, adicionar interatividade a uma página HTML simples ou iniciar uma aplicação React complexa, os links desta seção o ajudarão no início."
+    },
+    {
+      "titulo": "Componentes e Estado",
+      "introducao": "Os componentes são os blocos de construção fundamentais do React, permitindo dividir a interface em partes independentes e reutilizáveis.",
+      "subtitulo": "Gerenciamento de Dados",
+      "descricao": "Cada componente pode manter seu próprio estado interno. Quando o estado de um componente muda, o React atualiza e renderiza eficientemente apenas os elementos necessários no DOM através do Virtual DOM."
+    },
+    {
+      "titulo": "O Ecossistema React",
+      "introducao": "Além da biblioteca principal, o React conta com um ecossistema rico e maduro mantido pela comunidade.",
+      "subtitulo": "Aplicações Modernas",
+      "descricao": "Utilize Hooks para reutilizar lógica de estado entre componentes, frameworks como Next.js para renderização no servidor (SSR) e ferramentas populares para roteamento e gerenciamento global de estado."
     }
-
   ]
 }
