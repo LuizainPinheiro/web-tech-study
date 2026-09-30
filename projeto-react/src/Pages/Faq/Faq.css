@@ -6,7 +6,7 @@
 
 .faq-title {
   font-size: 2rem;
-  color: #9b3b83;
+  color: #682725;
   margin-bottom: 24px;
 }
 
@@ -26,12 +26,12 @@
 
 .faq-questao {
   font-size: 1.2rem;
-  color: #97348b;
+  color: #682725;
   margin-bottom: 8px;
 }
 
 .faq-resposta {
   font-size: 1rem;
   line-height: 1.5;
-  color: #a42f89;
+  color: #7e797d;
 }

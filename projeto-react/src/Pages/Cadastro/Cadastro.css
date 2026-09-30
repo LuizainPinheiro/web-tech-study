@@ -1,0 +1,65 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    min-height: 680px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-cadastro {
+    text-align: center;
+    padding: 25px;
+    color: #682725;
+    margin-bottom: 20px;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #e69287;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #682725;
+    font-size: 18px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 12px;
+    border: 1px solid #682725;
+    border-radius: 4px;
+    background-color: transparent;
+    margin-bottom: 10px;
+    color: #682725;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+button[type="submit"] {
+    padding: 12px;
+    background-color: #682725;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+

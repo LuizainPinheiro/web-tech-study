@@ -15,9 +15,7 @@ export default function index() {
 
   return (
     <div className='app-container'>
-
-    
-    <section className="container usuarios">
+      <section className="usuarios-lista">
         <h1>Lista de Usuários</h1>
 
         {usuarios.map((user)=> (
@@ -33,14 +31,10 @@ export default function index() {
             <br />
 
             <button className="delete">Deletar</button>
-            <hr />
-
+            <hr/>
           </article>
         ))}
-
-       
-    </section>
-
+      </section>
     </div>
 
 

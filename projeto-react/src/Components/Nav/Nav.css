@@ -1,6 +1,6 @@
 
 nav {
-    background-color: #e99cd6;
+    background-color: #e69287;
 }
 
 .menu {
@@ -23,6 +23,6 @@ nav {
 }
 
 .menu a:hover {
-    background-color: #8e3076;
+    background-color: #7f211e;
     border-radius: 5px;
 }

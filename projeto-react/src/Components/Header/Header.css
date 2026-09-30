@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  background-color: #ac67a6;
+  background-color: #521b1b;
   color: #ffffff;
   padding: 15px 20px;
 }
@@ -19,8 +19,8 @@
 
 .subtitle {
   font-size: 1rem;
-  color: #ffa4d6;
-  margin: 0;
+  color: #e69287;
+  margin-top: 10px;
 }
 
 .header-menu {
@@ -39,8 +39,4 @@
 .header-menu a {
   color: #ffffff;
   text-decoration: none;
-}
-
-.header-menu a:hover {
-  color: #ffa4d6;
 }
