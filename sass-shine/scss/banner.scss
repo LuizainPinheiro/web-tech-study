@@ -1,0 +1,36 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.banner {
+  padding: 70px $espacamento;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+
+  .img-banner {
+    border: 1px solid $cor-principal;
+    border-radius: 20px;
+    width: 40%;
+    margin-right: 90px;
+  }
+
+  .banner-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+      font-size: 4rem;
+      margin-bottom: 60px;
+    }
+
+    p {
+      font-size: 1.1rem;
+    }
+
+    .btn {
+      @include btn;
+      margin-top: 60px;
+    }
+  }
+}

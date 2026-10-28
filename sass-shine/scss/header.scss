@@ -1,0 +1,23 @@
+@use 'variables' as *;
+
+header {
+  padding: $espacamento;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+    a {
+      text-decoration: none;
+      margin-left: $espacamento;
+      font-size: 1rem;
+      transition: color $transicao;
+
+      &:hover {
+        color: $cor-principal;
+        text-decoration: underline $cor-principal 1px;
+        text-underline-offset: 6px;
+      }
+    }
+  }
+}
